@@ -67,11 +67,17 @@ body .historia {
     font-size: 20px;
 }
 
-.redes_sociais {
+.redes_sociais img {
     height: 45px;
 }
 
-.redes_sociais {
+.h2 {
+    text-align: center;
+    padding: 5px;
+    bottom: 10px;
+}
+
+.redes_sociais ul{
     display: inline;
     justify-content: flex-start;
     align-items: center;
