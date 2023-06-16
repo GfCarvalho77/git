@@ -8,15 +8,44 @@ header {
     padding: 16px;
     background-color: rgb(17, 30, 128);
     color:#ecf0f1;
-    font-size: 22px;
-    font-family: star;
+}
+
+header h1,
+section h2,
+section h3,
+form button,
+input,
+textarea {
     font-family: 'Stardos Stencil', cursive;
-    font-size: 35px;
+    font-size: 25px;
+    color:  rgb(17, 30, 128);
     }
+form button{
+    font-size: 20px;
+    color:#fff;
+}
+header h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+section h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+input,
+textarea {
+    font-size: 15px;
+}
+.contato{
+    padding: 5px;
+    background-color: rgb(17, 30, 128);
+    color:#ecf0f1;
+    text-align: center;
+}
 header nav li {
     display: inline;
     margin-left: 20px;
-    font-size: 20px;
     font-family: 'Stardos Stencil', cursive;
     font-size: 25px;
     font-weight:lighter;
@@ -24,37 +53,22 @@ header nav li {
 header nav li a {
     color: #ecf0f1;
     text-decoration: none;
-    
 }
+
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
-.content-wrapper{
-    display: flex;
-    align-items: center;
-}
-
-.text-wrapper{
-    flex: 1;
-}
-header .container,
-section .container{
+header .container{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
-body .historia {
-    padding: 5px;
-    background-color: rgb(124, 44, 44);
-    color:#ecf0f1;
-    font-size: 22px;
-    text-align:center;
 
-}
-.paragrafo{
+.paragrafo, .paragrafo_2{
     background-color: rgb(255, 255, 255);
     text-align:justify;
     max-width: 1280px;
@@ -67,35 +81,102 @@ body .historia {
     font-size: 20px;
 }
 
-.images{
-    height: 100px;
-}
+.paragrafo_2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;}
 
-.redes_sociais img {
-    height: 45px;
+.brands-list img {
+    height: 85px;
+    vertical-align: middle;
 }
-
-.h2 {
-    text-align: center;
-    padding: 5px;
-    bottom: 10px;
-}
-
-.redes_sociais ul{
+.brands-list li {
     display: inline;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 5px;
-    margin-left: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
 }
-.redes_sociais li {
-    display: inline;
-    text-align: 0 10px;
+.brands-list li a{
+    text-decoration: none;
 }
 
-.imagem-loja{
-    width: 600px;
+.imagem-loja {
+    border: 2px solid black;
+    width: 500px;
     height: auto;
-    float: left;
+    float:left;
     margin-right: 20px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+section .container {
+    align-items: flex-start;
+    vertical-align: middle;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section .h2 {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+section p{
+    margin-bottom: 8px;
+}
+.social-links img{
+height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display:block;
+    
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: rgb(17, 30, 128);
+    color(#fff);
+    border: none;
+    cursor: pointer;
+
+}
+form button:hover{
+    background-color: rgb(58, 72, 175);
+}
+input:focus, textarea:focus{
+    outline-color:rgb(17, 30, 128) ;
+}
+footer{
+    background-color: rgb(17, 30, 128);
+    color:#fff;
+    padding: 10px 0 10px 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
 }
