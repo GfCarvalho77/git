@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(196, 208, 208);
+            color:blueviolet;
+            margin: 0;
+        }
+        header >h1{
+            margin-top: 1px;
+            padding-top: 0px;
+            margin-bottom: 1px;
+            display: inline;
+            
+        }
+        header{
+            border: 2px solid red;
+            background-color: rgb(255, 255, 255);
+            color: rgb(192, 192, 33);
+            margin: 0%;
+            padding: 10px;
+            text-align: left;
+            
+        }
+        nav{
+            margin-left: auto;
+            background-color:rgb(149, 151, 155);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315)
+        }
+        nav > a{
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-decoration: none;
+            margin-left: 15px;
+
+            }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+        article#inter{
+            background-color: rgb(255, 189, 189);
+            color: black;
+        }
+
+        article#gremio{
+            background-color: aqua;
+            color: rgb(55, 18, 89);
+            margin:0px;
+        }
+        article#gremio >p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+        }
+
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    
+    <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+
+    </nav>
+    </header>
+    <main>
+        <section>Falando de Grêmio e Inter</section>
+        <section id="Notícias">
+            <article id="inter">
+                <h3> Todas notícias do Inter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati recusandae cum porro veniam, tempora perspiciatis! Voluptas quam tenetur molestiae nostrum asperiores culpa, repellendus iste error amet delectus odit minus.
+                </p>
+                <aside>
+                    <p>Escrito por fulano de tal</p>
+                </aside>
+            </article>
+        </section>
+        <section id="Esportes">
+            <article id="gremio">
+                <h3> Todas notícias do Grêmio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quidem amet officia, aut assumenda odit? Maxime minus provident deserunt molestiae? Quibusdam consequatur aspernatur blanditiis soluta quaerat, ab quod temporibus adipisci?</p>
+            </article>
+
+
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Guilherme
+    </footer>
+</body>
+</html>
